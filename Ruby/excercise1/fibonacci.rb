@@ -65,8 +65,8 @@ class Matrix
 	end
 end	
 
-f = Fibonacci.new(20)
-puts f.fibo1
+f = Fibonacci.new(7275)
+#puts f.fibo1
 puts f.fibo2
 
 m = [[1,1], [1,0]]

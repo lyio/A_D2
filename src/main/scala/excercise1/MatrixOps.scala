@@ -2,7 +2,7 @@ package excercise1
 
 object MatrixOps {
 
-  type Matrix = Vector[Vector[Long]]
+  type Matrix = Vector[Vector[BigDecimal]]
 
   val V = Vector(Vector(1), Vector(1))
   val BaseMatrix: Matrix = Vector(Vector(1L, 1L), Vector(1L, 0))

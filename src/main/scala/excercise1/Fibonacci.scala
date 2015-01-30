@@ -20,7 +20,7 @@ object Fibonacci {
    * @return
    */
   def fibo2(n: Int) = {
-    def inner(x: Int, acc: Long, pred: Long): Long = {
+    def inner(x: Int, acc: BigDecimal, pred: BigDecimal): BigDecimal = {
       if (x == n) acc
       else inner(x + 1, acc + pred, acc)
     }
@@ -33,7 +33,7 @@ object Fibonacci {
    * @param n
    * @return
    */
-  def fibo3 (n: Int): Long = {
+  def fibo3 (n: Int): BigDecimal = {
     def inner (Z: Matrix, times: Int, y: Matrix) : Matrix = {
       if (times == 0) y
       else {
